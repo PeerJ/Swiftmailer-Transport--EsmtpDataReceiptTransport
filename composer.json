@@ -1,0 +1,20 @@
+{
+    "name": "peerj/swiftmailer-transport-esmtpdatareceipttransport",
+    "type": "library",
+    "description": "Adds X-Swift-Data-Receipt to the message header comprised of the smtp data receipt text",
+    "keywords": [ "email", "swiftmailer" ],
+    "license": "MIT",
+    "authors": [
+    {
+        "name": "Patrick McAndrew",
+        "email": "patrick@peerj.com"
+    }
+    ],
+    "require": {
+        "php": ">=5.2.0",
+        "swiftmailer/swiftmailer": ">=4.*"
+    },
+    "autoload": {
+       "psr-0": { "": "classes/" }
+    }
+}
